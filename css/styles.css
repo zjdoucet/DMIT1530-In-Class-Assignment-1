@@ -1,0 +1,65 @@
+body {
+	font-family: arial;
+	font-size: 62.5%;
+    background-color: #e6e6e9;
+}
+
+/* Typographical scale */
+h1 {font-size: 4rem;}
+
+h2 {font-size: 3rem;}
+
+h3 {font-size: 2.4rem;}
+
+p {font-size: 1.6rem;
+	padding-bottom: 1.6rem;}
+
+header {
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #cbcbd1;
+	color: #ff0000;
+	margin-bottom: 2.4rem;
+	padding: 2.4rem;
+}
+
+main,
+footer {
+	padding: 2.4rem;
+}
+
+.col {
+	margin: 1rem 0;
+	padding: 1rem;
+	border: 1px solid #4a5568;
+	border-radius: 4px;
+	background-color: #fff;
+	display: flex;
+	align-items: flex-start;
+}
+
+.col img {
+	margin-right: 1rem;
+	width: 40%;
+}
+
+@media only screen and (min-width: 1100px) {
+	main {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	main h2 {
+		width: 100%;
+	}
+
+	.col {
+		width: 32%;
+		display: block;
+	}
+
+	.col img {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+}
